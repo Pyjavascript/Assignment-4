@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment</title>
+</head>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    height:100vh;
+    width:100vw;
+  }
+  div{
+    background:#ddf;
+    height:50%;
+    width:100%;
+    transition:.5s;
+  }
+  
+</style>
+<div id="box" onclick="cover()"></div>
+
+<script>
+  let box = document.getElementById("box");
+  
+  function cover(){
+    box.style.height="100%";
+    box.style.background="#dff";
+  };
+</script>
+
+<body>
+</body>
+</html>
